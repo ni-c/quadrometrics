@@ -53,17 +53,14 @@ public class Quadrometrics {
     public static JTextField speed3;
 
     /**
-     * @param args
+     * @param args The port (e.g. "/dev/ttyUSB0")
      */
     public static void main(String[] args) {
+        System.out.println("Using port " + args[0]);
         try {
-            (new Quadrometrics()).connect("/dev/ttyUSB1");
-        } catch (Exception e1) {
-            try {
-                (new Quadrometrics()).connect("/dev/ttyUSB0");
-            } catch (Exception e2) {
-                System.err.println("No port found");
-            }
+            (new Quadrometrics()).connect(args[0]);
+        } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 

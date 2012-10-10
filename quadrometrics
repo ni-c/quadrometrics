@@ -1,0 +1,6 @@
+#!/bin/bash
+if [$1 = ""]; then
+  echo "Usage: quadrometrics [port (e.g. /dev/ttyUSB0)"
+  exit 1
+fi
+java -jar dist/quadrometrics.jar $1
