@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<frame id="frame" title="Quadrometrics" size="300,400">
+
+	<panel id="pnl_acc">
+		<vbox>
+			<hbox>
+				<label text="rc_channel[0]" />
+				<textfield id="rc1" editable="false" text="00000" />
+			</hbox>
+			<hbox>
+				<label text="rc_channel[1] :" />
+				<textfield id="rc2" editable="false" text="00000" />
+			</hbox>
+			<hbox>
+				<label text="rc_channel[2] :" />
+				<textfield id="rc3" editable="false" text="00000" />
+			</hbox>
+			<hbox>
+				<label text="rc_channel[3] :" />
+				<textfield id="rc4" editable="false" text="00000" />
+			</hbox>
+
+			<hbox>
+				<label text="mpu6050[0] (ACC_X)" />
+				<textfield id="accx" editable="false" text="00000" />
+			</hbox>
+			<hbox>
+				<label text="mpu6050[1] (ACC_Y)" />
+				<textfield id="accy" editable="false" text="00000" />
+			</hbox>
+			<hbox>
+				<label text="mpu6050[2] (ACC_Z)" />
+				<textfield id="accz" editable="false" text="00000" />
+			</hbox>
+
+			<hbox>
+				<label text="mpu6050[4] (GYRO_X)" />
+				<textfield id="gyrox" editable="false" text="00000" />
+			</hbox>
+			<hbox>
+				<label text="mpu6050[5] (GYRO_Y)" />
+				<textfield id="gyroy" editable="false" text="00000" />
+			</hbox>
+			<hbox>
+				<label text="mpu6050[6] (GYRO_Z)" />
+				<textfield id="gyroz" editable="false" text="00000" />
+			</hbox>
+
+			<hbox>
+				<label text="pid[0]" />
+				<textfield id="pid0" editable="false" text="00000" />
+			</hbox>
+			<hbox>
+				<label text="pid[1]" />
+				<textfield id="pid1" editable="false" text="00000" />
+			</hbox>
+			<hbox>
+				<label text="pid[2]" />
+				<textfield id="pid2" editable="false" text="00000" />
+			</hbox>
+
+			<hbox>
+				<label text="speed[0]" />
+				<textfield id="speed0" editable="false" text="00000" />
+			</hbox>
+			<hbox>
+				<label text="speed[1]" />
+				<textfield id="speed1" editable="false" text="00000" />
+			</hbox>
+			<hbox>
+				<label text="speed[2]" />
+				<textfield id="speed2" editable="false" text="00000" />
+			</hbox>
+			<hbox>
+				<label text="speed[3]" />
+				<textfield id="speed3" editable="false" text="00000" />
+			</hbox>
+		</vbox>
+	</panel>
+</frame>
