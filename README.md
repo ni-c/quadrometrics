@@ -4,12 +4,6 @@ Java Application to decode and display the serial data send from the [Quadrofly]
 
 ![Quadrometrics](https://raw.github.com/ni-c/quadrometrics/gh-pages/quadrometrics.png)
 
-## Execution
-
-````bash
-$ ./quadrometrics /dev/ttyUSB1
-````
-
 ## License
 
 MIT License
